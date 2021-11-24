@@ -30,9 +30,9 @@ int main()
 	cin >> rows;
 	cout << "\nPlease enter columns: ";
 	cin >> columns;
-	double** matrix = allocate(rows, columns);
+	double** matrix = allocate<double>(rows, columns);
 	FillRand(matrix, rows, columns);
-	cout << "\nYour array";
+	cout << "\nYour array\n";
 	Print(matrix, rows, columns);
 
 	clear(matrix, rows);

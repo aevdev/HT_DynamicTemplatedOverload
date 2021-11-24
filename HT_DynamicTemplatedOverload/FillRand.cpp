@@ -1,6 +1,6 @@
 #include"FillRand.h"
 #include <iostream>
-template<typename T>void FillRand(T arr[], const unsigned int n, int minRand, int maxRand)
+template<typename T>void FillRand(T arr[], const unsigned int n, T minRand, T maxRand)
 {
 	for (int i = 0; i < n; i++)
 	{
